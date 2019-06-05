@@ -7,7 +7,7 @@
     "build": "cross-env NODE_ENV=production ./node_modules/.bin/rollup -c",
     "build:watch": "cross-env NODE_ENV=production ./node_modules/.bin/rollup -cw",
     "prettier": "cross-env ./node_modules/.bin/prettier '**/*.{json,md,scss,yaml,yml}'",
-    "tslint:fix": "cross-env ./node_modules/.bin/tslint --project tsconfig.json -e .gitignore 'src/**/*.{js,ts} --fix'",
+    "tslint": "cross-env ./node_modules/.bin/tslint --project tsconfig.json -e .gitignore 'src/**/*.{js,ts} --fix'",
     "test": "jest"
   },
   "main": "dist/index.js",
@@ -57,7 +57,9 @@
     "rollup-plugin-dts": "^0.14.0",
     "rollup-plugin-node-resolve": "^4.0.1",
     "rollup-plugin-typescript2": "^0.20.1",
+    "search-engine-optimization": "0.0.1",
     "ts-jest": "24.0.2",
+    "ts-node": "^8.2.0",
     "tslint": "^5.17.0",
     "tslint-config-airbnb": "^5.11.1",
     "typescript": "^3.3.4000"

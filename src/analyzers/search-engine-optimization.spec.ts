@@ -1,4 +1,4 @@
-import analyzer from '../analyzer/search-engine-optimization'
+import analyzer from '../analyzers/search-engine-optimization'
 
 describe('Search engine optimization', () => {
   it('passing case', () => {

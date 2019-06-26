@@ -1,0 +1,14 @@
+{
+  "extends": "tslint-config-airbnb",
+  "rules": {
+    "file-header": [
+      true,
+      {
+        "match": "Copyright \\d{4}",
+        "allow-single-line-comments": true,
+        "default": "Copyright 2019",
+        "enforce-trailing-newline": false
+      }
+    ]
+  }
+}

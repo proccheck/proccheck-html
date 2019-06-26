@@ -1,3 +1,15 @@
-dist
+packages/core/dist
+packages/core/.rts2_cache_es
+packages/core/.rts2_cache_umd
+packages/core/.rts2_cache_cjs
+packages/core/node_modules
+packages/core/coverage
+
+packages/cli/dist
+packages/cli/.rts2_cache_es
+packages/cli/.rts2_cache_umd
+packages/cli/.rts2_cache_cjs
+packages/cli/node_modules
+packages/cli/coverage
+
 node_modules
-coverage

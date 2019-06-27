@@ -8,7 +8,7 @@ before_script:
 
 install:
   - npm install
-  - npm run-script build
+  -  npm run-script lerna -- exec npm run build
 
 after_script:
 - npm run-script lerna -- exec npm run test

@@ -1,7 +1,9 @@
-'use strict';
+/*!
+ * Copyright 2019
+ */
 
-module.exports = cli;
-
-function cli() {
-    // TODO
-}
+console.log('sample', process.argv);
+const plop = (param:string) => {
+  console.log('some ugly style', param);
+};
+plop('la lune est belle');

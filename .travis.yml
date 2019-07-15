@@ -8,7 +8,8 @@ before_script:
 
 install:
   - npm install
-  -  npm run-script lerna -- exec npm run build
+  - npm run-script lerna -- run tslint
+  - npm run-script lerna -- run build
 
 after_script:
-- npm run-script lerna -- exec npm run test
+- npm run-script lerna -- run test

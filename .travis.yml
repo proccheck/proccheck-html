@@ -1,0 +1,15 @@
+sudo: false
+language: node_js
+node_js:
+  - "10"
+
+before_script:
+  - npm install -g jest coveralls
+
+install:
+  - npm install
+  - npm run-script lerna -- run tslint
+  - npm run-script lerna -- run build
+
+after_script:
+- npm run-script lerna -- run test

@@ -1,5 +1,4 @@
 {
-  "extends": "./tsconfig-google.json",
   "compilerOptions": {
     "rootDir": ".",
     "outDir": "dist"

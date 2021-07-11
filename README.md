@@ -4,3 +4,7 @@
 [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier)
 
 This project is in an initialization phase.
+
+## Features
+
+- [analyzers](./doc/analyzer.md) to provide metrics from a given html filename.

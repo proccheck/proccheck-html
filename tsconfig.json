@@ -2,13 +2,15 @@
   "extends": "./tsconfig-google.json",
   "compilerOptions": {
     "rootDir": ".",
-    "outDir": "dist"
+    "outDir": "dist",
+    "esModuleInterop": true
   },
   "include": [
     "src/**/*.ts",
-    "test/**/*.ts"
   ],
   "exclude": [
-    "test/fixtures/**/*.*"
+    "src/fixtures/**/*.*",
+    "src/**/*.spec.ts",
+    "src/**/*.test.ts",
   ]
 }

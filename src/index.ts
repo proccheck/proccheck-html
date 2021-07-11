@@ -1,9 +1,8 @@
 /*!
  * Copyright 2019
  */
+import index from './analyzers/index';
 
-console.log('sample', process.argv);
-const plop = (param:string) => {
-  console.log('some ugly style', param);
+export default {
+  analyzers,
 };
-plop('la lune est belle');
